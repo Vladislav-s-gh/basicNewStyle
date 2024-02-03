@@ -87,7 +87,7 @@ function startQuiz(){
   //relativ image
   
   imageElement.innerHTML = currentQuestion.keyimage;
-
+  imageElement.style.display = "flex";
 
 
 
@@ -146,7 +146,7 @@ function showScore(){
   nextButton.style.display = "block";
   comment.style.display = "none";
   commentText.style.display = "none";
-  imageElement.style.background = "tranparent";
+  imageElement.style.display = "none";
  
 
   document.getElementById("email").value = `${score}`;
