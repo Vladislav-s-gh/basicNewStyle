@@ -276,6 +276,7 @@
   margin-top: 5px;
   color: white;
   margin-bottom: 0px;
+  transition: background-color .2s ease-out, color .2s ease;
 }
 .doctor-btn:hover{
   background-color: #40778a;
