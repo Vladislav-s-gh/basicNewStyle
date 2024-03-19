@@ -1,0 +1,221 @@
+.about-pages{
+  padding: 10px 30px 10px 50px;
+}
+.about-pages h1{
+  margin-left: 2em;
+}
+.about-pages p{
+  font-size: 2em;
+  padding: 1em;
+}
+
+
+
+.event-page{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.event-page-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.582);
+  justify-content: center;
+}
+.event-page-container img{
+  width: 700px;
+  height: 700px;
+  display: flex;
+}
+.event-page-container h2{
+  width: 400px;
+  display: flex;
+  padding: 15px;
+  
+} 
+.vacation-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vacation-page h1{
+  padding: 10px;
+  color: rgb(130, 152, 203);
+}
+.vacation-container{
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.582);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.contacts-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-page h1 {
+  padding-top: 20px;
+  display: flex;
+  color: rgb(130, 152, 203);
+}
+.contacts-page h2 {
+  margin: 5px;
+  display: flex;
+  text-align: center;
+}
+
+.contacts-stick{
+  border: 1px solid #EAB857;
+  display: flex;
+  height: 1px;
+  width: 10vw;
+  margin: 20px 0 20px 0; 
+}
+.services-page{
+  padding: 30px 20px;
+}
+.services-page h1{
+  padding: 1em;
+  color: rgb(130, 152, 203);
+}
+
+.labolatory-page{
+  padding: 30px;
+}
+.labolatory-page h1{
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(130, 152, 203);
+}
+
+.usefull-page{
+  padding: 30px;
+}
+.usefull-page h1{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.doctor-page{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.doctor-page h1{
+  padding-bottom: 10px;
+  color: rgb(130, 152, 203);
+  text-align: center;
+}
+
+.doctor-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 95%;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.582);
+}
+.doctor-article-img-and-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctor-article-img-and-name img{
+  display: flex;
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(4px 8px 8px #c7cfd1);
+}
+.doctor-article-img-and-name h2{
+  text-align: center;
+  width: 95%;
+  margin: 0.5em; 
+  color: rgb(30, 108, 177);
+}
+.doctor-article h3{
+  width: 95%;
+  display: flex;
+  padding: 10px;
+}
+#blue-hader-link{
+  color: hsl(230, 49%, 65%);
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  .about-pages{
+    padding: 5px;
+  }
+  .about-pages h1{
+    margin-left: 10px;
+    padding-top: 85px;
+    font-size: 1.5em;
+  }
+  .about-pages p{
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .event-page{
+    margin-top: 90px;
+  }
+  .event-page-container img{
+    width: 95%;
+    height: auto;
+    display: flex;
+  }
+  .event-page-container h2{
+    width: 95%;
+    display: flex;
+    padding: 5px;
+    
+  }
+
+  .vacation-page h1{
+    padding: 10px;
+    margin-top: 80px;
+  }
+  .vacation-container{
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .contacts-page h1 {
+    padding-top: 100px;
+    
+  }
+
+  .services-page{
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .labolatory-page h1{
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+
+  .usefull-page h1{
+    padding-top: 80px;
+  }
+
+
+  .doctor-page h1{
+    padding: 10px 0 10px 0;
+  }
+  .doctor-article{
+    margin: 0px 10px;
+  }
+  .doctor-article-img-and-name img{
+    width: 95%;
+  }
+}
